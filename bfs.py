@@ -1,14 +1,3 @@
-"""
-Breadth First Search
-@link https://github.com/adlawson/bfs-python
-@author Andrew Lawson (http://adlawson.com)
-"""
-
-"""
-:param {List} frontier
-:param {Dict} graph
-:param {Lambda} fn
-"""
 def _visit(frontier, graph, fn):
     level = 0
     levels = {}
@@ -24,10 +13,5 @@ def _visit(frontier, graph, fn):
         frontier = next
         level += 1
 
-"""
-:param {Integer} node
-:param {Dict} graph
-:param {Lambda} fn
-"""
 def visit(node, graph, fn):
     _visit([node], graph, fn)

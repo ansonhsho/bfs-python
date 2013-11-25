@@ -1,10 +1,3 @@
-"""
-Breadth First Search
-@link https://github.com/adlawson/bfs-python
-@author Andrew Lawson (http://adlawson.com)
-"""
-import os, sys
-sys.path.append(os.path.join(os.path.dirname(__file__), "../src"))
 import bfs
 
 graph = {
